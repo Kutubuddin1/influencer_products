@@ -35,7 +35,8 @@ body{
     color: #000000;
     font-size: 16px;
   }
-
+/* flexible-container 
+-----------------*/
 
 .flexible-container{
     display: flex;
@@ -86,6 +87,8 @@ a{
     font-size: 15px;
     margin:15px;
 }
+/* container 
+-----------------*/
 .container{
     margin: 20px 120px ;
     margin-bottom: 100px;
@@ -126,12 +129,28 @@ span{
 button{
     border: none;
     text-decoration: none;
+    margin-left: 970px;
     color:#FF6363;
-   
-   
-}
+  }
+/* Extra Section 
+-----------------*/
+.extra-section{
+    margin: 30px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .extra-section h1{
+    font-size: 40px;
+  }
+  .extra-section a{
+    margin: auto;
+  }
+/* footer Section 
+-----------------*/
 #footer-wop{
     background-color:#0d1529;
+    padding: 20px;
 }
 footer h1{
     text-align: center;
