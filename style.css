@@ -1,21 +1,61 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-}
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    align-items: center;
+  }
+  .name{
+    margin-left: 100px;
+    width: 50%;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .menu{
+    width: 50%;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 40px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+  }
 h1{
     font-size: 50px;
 }
 
 .top-banner{
     display: flex;
-    margin-left: 100px;
+    margin-left:150px;
+    margin-right: 100px;
+    margin-top: 20px;
+
 }
 .text-width{
     width: 50%;
-    padding-left: 2%;
+   
+    
 }
 .text-width img{
-    width: 80%;
+    height: 414px;
+    width: 440px;
+  
+    
 }
 .link-button{
     color: whitesmoke;
@@ -23,8 +63,17 @@ h1{
     background-image:linear-gradient(#EF2F88, rgb(111, 111, 117));
     
     font-weight: 700;
-    padding: 8px 40px;
+    padding: 9px 36px;
     border-radius: 30px;
+    font-size: 20px;
+}
+.class{
+    font-size: 15px;
+    
+}
+.tools{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 #footer-wop{
     background-color:#0d1529;
@@ -34,18 +83,15 @@ footer h1{
     color: white;
 }
 .icon{
-    
-    position:center;
-    
-}
+    display: flex;
+    justify-content: center;
+}       
 .social-icon{
    text-align: center;
     color: #aaaaaa;
     transition: color 0.2s;
     text-decoration: none;
-    margin: 0 10px;
-   
-   
+    margin: 0 10px;   
 }
 .social-icon:hover{
     color: #333333;
@@ -55,4 +101,69 @@ footer  p{
     text-align: center;
     color: white;
     font-size: 10px;
+}
+
+#class{
+    padding: 5px;
+    font-size: 15px;
+    margin:15px;
+}
+.container{
+    margin: 20px 120px ;
+    margin-bottom: 100px;
+    
+}
+.container>h2{
+    text-align: center;
+}
+.information{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background: rgba(133, 128, 128, 0.219);
+    padding: 10px;
+}
+.tools{
+    height: 476px;
+    width: 329px;
+    display: flex;
+    flex-direction: column;
+    background:white;
+    padding: 10px;
+}
+div
+.images{
+    height:256px;
+    width: 300px;
+    padding:10px;
+}
+.color{
+    color: #FFC014
+}
+
+@media screen and (max-width:688px ) {
+    .container{
+        margin: 20px;
+    }
+    .top-banner{
+        flex-direction: column-reverse;
+    }
+    .text-width{
+        width: 100%;
+    }
+    .information{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .menu{
+        display: none;
+    }
+    .name{
+        text-align: center;
+        font-size: 16px;
+    }
+    .navbar{
+        background: none;
+    }
+    
 }
