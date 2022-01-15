@@ -33,11 +33,19 @@ footer h1{
     text-align: center;
     color: white;
 }
+.icon{
+    
+    position:center;
+    
+}
 .social-icon{
+   text-align: center;
     color: #aaaaaa;
     transition: color 0.2s;
     text-decoration: none;
     margin: 0 10px;
+   
+   
 }
 .social-icon:hover{
     color: #333333;
