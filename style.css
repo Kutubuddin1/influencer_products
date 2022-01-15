@@ -202,4 +202,24 @@ footer  p{
     .navbar{
         background: none;
     }
-    
+    .extra-section{
+        width: 100%;
+        margin: 20px;
+      }
+      .extra-section h1{
+        display: none;
+      }
+      .extra-section a{
+        margin: 30px;
+      }
+      .extra-section img{
+        width: 250px;
+        height: 250px;
+      }
+      button{
+        border: none;
+        text-decoration: none;
+        margin-top: 50px;
+        margin-left: 270px;
+        color:#FF6363;
+      }
